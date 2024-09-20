@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding:0 ;
+    box-sizing: border-box;
+    }
+    p{
+        white-space: pre-line;
+    }
+    
+    .Dishes{
+        display: flex;
+       justify-content: center;
+    }
+    .Dishes .contanier{
+    
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      gap:20px;
+      justify-content: center;
+      width: 100%;
+   
+    }
+    .Dishes h2{
+        font-size: 45px;
+        font-weight: 200;
+    }
+    .Dishes .par{
+        color: rgb(173, 173, 109);
+        font-size: 20px;
+        font-family:Arial, Helvetica, sans-serif;
+    }
+    .DishesTypes{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+    }
+    .DishesTypes .Dish{
+        width: 30%;
+    }
+    .Dish img{
+        width: 300px;
+        border-radius: 5px;
+    }
+    .Dishes{
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .Dishes .Button{
+        border: 3px solid black;
+        padding: 2px;
+        border-radius: 10px;
+        background-color: rgb(173, 173, 109);
+    
+    }
+    .Sec{
+        background-image: url(image/shutterstock_277750193.jpg );
+       height: 100vh;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .back{
+        display: flex;
+        flex-wrap: wrap;
+        color:white;
+       flex-direction: column;
+       justify-content: center;
+       align-content: center;
+       text-align: center;
+      font-weight:600;
+      font-size: 30px;
+       height: 100vh;
+       gap: 30px;
+    }
+    
+    .SecIma{
+        width: 100x;
+        height:100px;
+   
+    }
+    /*.icons{
+    
+        width: 100px;
+        height: 100px;
+      display: flex;
+      flex-wrap:wrap;
+      justify-items: center;
+    }
+    
+    .icon{
+        width: 100px;
+        height: 100px;
+        display: flex;
+    }*/
+    
